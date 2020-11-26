@@ -1,0 +1,95 @@
+@media (max-width: 1600px) /*min: 1201*/{
+	.row {
+        max-width: 1140px;
+    }
+
+}
+
+@media (max-width: 1200px) /*min: 1025*/{
+	.row {
+        max-width: 970px;
+	}
+
+	/*************************** HEADER ************************/
+	.heading {
+		width: 75%;
+	}
+}
+
+@media (max-width: 1024px) /*min: 769*/{
+	html {
+        font-size: 18px;
+    }
+
+	.row {
+        max-width: 750px;
+	}
+
+	/*************************** HEADER ************************/
+	.heading {
+		width: 80%;
+	}
+
+	/*************************** CONTENT ***********************/
+	.heading-2 {
+		width: 80%;
+	}
+
+	.card-container div {
+		width: 32%;
+		text-align: center;
+	}
+}
+
+@media (max-width: 768px) /*min: 481*/{
+	html {
+        font-size: 16px;
+    }
+
+	.row {
+        max-width: 450px;
+	}
+
+	/************************* HEADER ****************************/
+	.heading {
+		top: 30%;
+		width: 100%;
+	}
+
+	/************************ CONTENT ****************************/
+	.heading-2 {
+		width: 100%;
+	}
+
+	.card-container {
+		display: block;
+	}
+
+	.card-container div {
+		width: 90%;
+		text-align: center;
+	}
+
+	i {
+		margin-bottom: .0.5rem;
+	}
+
+	h6 {
+		margin-bottom: 0.5rem;
+	}
+
+	.card-container p {
+		width: 90%;
+		margin-bottom: 3rem;
+	}
+}
+
+@media (max-width: 480px) /*min: 321*/{
+	.row {
+        max-width: 300px;
+	}
+
+	section {
+		padding: 2rem 0;
+	}
+}
